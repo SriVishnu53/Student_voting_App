@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".leader"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="185dp"
+        android:layout_height="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="200dp"
+
+        android:onClick="sec"
+        app:srcCompat="@drawable/sec"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:onClick="join"
+        app:srcCompat="@drawable/join"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="340dp"
+        android:text="           Student Secretary"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="164dp"
+
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="585dp"
+        android:text="Sports Secretary       "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="450dp"
+        android:layout_alignParentLeft="true"
+        android:onClick="dance"
+        app:srcCompat="@drawable/dancers"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="450dp"
+        android:onClick="sport"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/sport"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="340dp"
+        android:text="Join Secretary         "
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="164dp"
+
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="585dp"
+        android:text="          Culture Secretary"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Click Your Voting person" />
+
+</RelativeLayout>

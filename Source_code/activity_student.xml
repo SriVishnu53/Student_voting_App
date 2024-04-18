@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stu1"
+    tools:context=".student">
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="280dp"
+        android:ems="10"
+        android:hint="Reg No"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint="Date of birth"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+
+        android:textStyle="bold"
+        android:text="If Don't Register"/>
+</RelativeLayout>
+
+
+
+

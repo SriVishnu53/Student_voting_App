@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".cluture">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate Registration  "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="351dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="Name of the Candidate"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/regno"
+        android:layout_width="351dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:hint="Reg no"/>
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="351dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:ems="10"
+        android:hint="Mobile No"/>
+
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:onClick="Insert"
+        android:text="Add Candiate" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:text="Update Candiate"
+        android:onClick="Update"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Candiate"
+        android:onClick="Delete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="570dp"/>
+
+
+</RelativeLayout>
